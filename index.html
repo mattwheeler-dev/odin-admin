@@ -1,207 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- LINK STYLESHEET -->
 		<link rel="stylesheet" href="styles.css" />
-		<!-- FONT AWESOME SCRIPT & DEFER -->
 		<script
 			src="https://kit.fontawesome.com/1e723eb9a7.js"
 			crossorigin="anonymous"
 			defer
 		></script>
-		<title>OdinProject | AdminDashboard</title>
+		<title>Odin's Dashboard</title>
 	</head>
 	<body>
+		<header>
+			<div id="search-area">
+				<i class="fa-solid fa-magnifying-glass"></i>
+				<input type="text" id="search-field" name="search-field" />
+			</div>
+			<div id="account-area">
+				<i class="fa-regular fa-bell"></i>
+				<img
+					src="logo-black.webp"
+					alt="Logo of M and W"
+					height="40px"
+					width="40px"
+				/>
+				<p>MW DevWorks</p>
+			</div>
+			<div id="welcome">
+				<img
+					src="logo-black.webp"
+					alt="Logo of M and W"
+					height="60px"
+					width="60px"
+				/>
+				<p id="greeting">Hi there,</p>
+				<p>MW DevWorks (@MW-DW)</p>
+			</div>
+			<div id="btns-area">
+				<button>New</button>
+				<button>Upload</button>
+				<button>Share</button>
+			</div>
+		</header>
+
+		<nav>
+			<h1>
+				<i class="fa-solid fa-cubes"></i>
+				Dashboard
+			</h1>
+			<ul id="main-links">
+				<li>
+					<i class="fa-solid fa-house"></i>
+					Home
+				</li>
+				<li>
+					<i class="fa-regular fa-address-card"></i>
+					Profile
+				</li>
+				<li>
+					<i class="fa-solid fa-message"></i>
+					Messages
+				</li>
+				<li>
+					<i class="fa-solid fa-clock"></i>
+					History
+				</li>
+				<li>
+					<i class="fa-solid fa-note-sticky"></i>
+					Tasks
+				</li>
+				<li>
+					<i class="fa-solid fa-users-line"></i>
+					Communities
+				</li>
+			</ul>
+
+			<ul id="secondary-links">
+				<li>
+					<i class="fa-solid fa-gears"></i>
+					Settings
+				</li>
+				<li>
+					<i class="fa-solid fa-circle-question"></i>
+					Support
+				</li>
+				<li>
+					<i class="fa-solid fa-shield-halved"></i>
+					Privacy
+				</li>
+			</ul>
+		</nav>
+
 		<main>
-			<section class="header">
-				<div class="top-bar">
-					<div class="search-area">
-						<i class="fa-solid fa-magnifying-glass"></i>
-						<input type="text" />
-					</div>
-					<div class="account">
-						<i class="fa-regular fa-bell"></i>
-						<img src="MW-logo.jpg" alt="Logo of M and W" />
-						<p>MW DevWorks</p>
+			<section id="projects">
+				<h3>Your Projects</h3>
+				<div class="project">
+					<h4>Super Cool Project</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua.
+					</p>
+					<div class="project-icons">
+						<i class="fa-solid fa-heart-circle-plus"></i>
+						<i class="fa-solid fa-eye"></i>
+						<i class="fa-solid fa-share-nodes"></i>
 					</div>
 				</div>
 
-				<div class="lower-bar">
-					<div class="account">
-						<img src="MW-logo.jpg" alt="Logo of M and W" />
-						<p><span class="hello">Hi there, </span>MW DevWorks (@MW-DW)</p>
+				<div class="project">
+					<h4>Less Cool Project</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua.
+					</p>
+					<div class="project-icons">
+						<i class="fa-solid fa-heart-circle-plus"></i>
+						<i class="fa-solid fa-eye"></i>
+						<i class="fa-solid fa-share-nodes"></i>
 					</div>
-					<div>
-						<button>New</button>
-						<button>Upload</button>
-						<button>Share</button>
+				</div>
+
+				<div class="project">
+					<h4>Impossible App</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua.
+					</p>
+					<div class="project-icons">
+						<i class="fa-solid fa-heart-circle-plus"></i>
+						<i class="fa-solid fa-eye"></i>
+						<i class="fa-solid fa-share-nodes"></i>
+					</div>
+				</div>
+
+				<div class="project">
+					<h4>Easy Peasy App</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua.
+					</p>
+					<div class="project-icons">
+						<i class="fa-solid fa-heart-circle-plus"></i>
+						<i class="fa-solid fa-eye"></i>
+						<i class="fa-solid fa-share-nodes"></i>
+					</div>
+				</div>
+
+				<div class="project">
+					<h4>Ad Blocker</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua.
+					</p>
+					<div class="project-icons">
+						<i class="fa-solid fa-heart-circle-plus"></i>
+						<i class="fa-solid fa-eye"></i>
+						<i class="fa-solid fa-share-nodes"></i>
+					</div>
+				</div>
+
+				<div class="project">
+					<h4>Money Maker</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua.
+					</p>
+					<div class="project-icons">
+						<i class="fa-solid fa-heart-circle-plus"></i>
+						<i class="fa-solid fa-eye"></i>
+						<i class="fa-solid fa-share-nodes"></i>
 					</div>
 				</div>
 			</section>
 
-			<section class="dashboard">
-				<h2>
-					<i class="fa-solid fa-cubes-stacked"></i>
-					Dashboard
-				</h2>
-				<ul>
-					<li>
-						<i class="fa-solid fa-house"></i>
-						Home
-					</li>
-					<li>
-						<i class="fa-regular fa-address-card"></i>
-						Profile
-					</li>
-					<li>
-						<i class="fa-solid fa-message"></i>
-						Messages
-					</li>
-					<li>
-						<i class="fa-solid fa-clock"></i>
-						History
-					</li>
-					<li>
-						<i class="fa-solid fa-note-sticky"></i>
-						Tasks
-					</li>
-					<li>
-						<i class="fa-solid fa-users-line"></i>
-						Communities
-					</li>
-				</ul>
-				<ul>
-					<li>
-						<i class="fa-solid fa-gears"></i>
-						Settings
-					</li>
-					<li>
-						<i class="fa-solid fa-circle-question"></i>
-						Support
-					</li>
-					<li>
-						<i class="fa-solid fa-shield-halved"></i>
-						Privacy
-					</li>
-				</ul>
-			</section>
-
-			<section class="feed">
-				<div class="projects-container">
-					<h3>Your Projects</h3>
-					<div class="project card">
-						<h4>Super Cool Project</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-						<div class="project-icons">
-							<i class="fa-solid fa-heart-circle-plus"></i>
-							<i class="fa-solid fa-eye"></i>
-							<i class="fa-solid fa-share-nodes"></i>
-						</div>
-					</div>
-
-					<div class="project card">
-						<h4>Less Cool Project</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-						<div class="project-icons">
-							<i class="fa-solid fa-heart-circle-plus"></i>
-							<i class="fa-solid fa-eye"></i>
-							<i class="fa-solid fa-share-nodes"></i>
-						</div>
-					</div>
-
-					<div class="project card">
-						<h4>Impossible App</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-						<div class="project-icons">
-							<i class="fa-solid fa-heart-circle-plus"></i>
-							<i class="fa-solid fa-eye"></i>
-							<i class="fa-solid fa-share-nodes"></i>
-						</div>
-					</div>
-
-					<div class="project card">
-						<h4>Easy Peasy App</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-						<div class="project-icons">
-							<i class="fa-solid fa-heart-circle-plus"></i>
-							<i class="fa-solid fa-eye"></i>
-							<i class="fa-solid fa-share-nodes"></i>
-						</div>
-					</div>
-
-					<div class="project card">
-						<h4>Ad Blocker</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-						<div class="project-icons">
-							<i class="fa-solid fa-heart-circle-plus"></i>
-							<i class="fa-solid fa-eye"></i>
-							<i class="fa-solid fa-share-nodes"></i>
-						</div>
-					</div>
-
-					<div class="project card">
-						<h4>Money Maker</h4>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-						<div class="project-icons">
-							<i class="fa-solid fa-heart-circle-plus"></i>
-							<i class="fa-solid fa-eye"></i>
-							<i class="fa-solid fa-share-nodes"></i>
-						</div>
-					</div>
-				</div>
-
-				<div class="announcements-container">
+			<section id="announcements-and-trending">
+				<div id="announcements">
 					<h3>Announcements</h3>
-					<div class="announcements card">
-						<h5>Site Maintenance</h5>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-						<hr />
-						<h5>Community Share Day</h5>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-						<hr />
-						<h5>Updated Privacy Policy</h5>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						</p>
+					<div id="announcements-card">
+						<div class="announcement">
+							<h4>Site Maintenance</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit.
+							</p>
+						</div>
+						<div class="announcement">
+							<h4>Community Share Day</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit, sed do eiusmod tempor.
+							</p>
+						</div>
+						<div class="announcement">
+							<h4>Updated Privacy Policy</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit, sed do eiusmod tempor
+								incididunt ut.
+							</p>
+						</div>
 					</div>
 				</div>
 
-				<div class="trending-container">
+				<div id="trending">
 					<h3>Trending</h3>
-					<div class="trending card">
+					<div id="trending-card">
 						<div class="trending-user">
 							<img
 								src="meritt-thomas-unsplash.jpg"
 								alt="inflatable unicorn"
 								title="Photo Credit: Merrit Thomas on Unsplash"
+								height="75px"
+								width="75px"
+								loading="lazy"
 							/>
 							<p>Unicorn</p>
 						</div>
@@ -210,6 +229,9 @@
 								src="meg-jerrard-unsplash.jpg"
 								alt="a raven"
 								title="Photo Credit: Meg Jerrard on Unsplash"
+								height="75px"
+								width="75px"
+								loading="lazy"
 							/>
 							<p>Raven</p>
 						</div>
@@ -218,6 +240,9 @@
 								src="vincent-van-zalinge-unsplash.jpg"
 								alt="a honey badger"
 								title="Photo Credit: Vincent Van Zalinge on Unsplash"
+								height="75px"
+								width="75px"
+								loading="lazy"
 							/>
 							<p>Badger</p>
 						</div>
